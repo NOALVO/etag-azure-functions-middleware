@@ -1,0 +1,24 @@
+{
+  "name": "etag-azure-functions-middleware",
+  "version": "1.1.5",
+  "description": "An ETag validation middleware for Azure Functions using https://github.com/emanuelcasco/azure-middleware and https://github.com/ggondim/redis-http-etag-control and",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggondim/etag-azure-functions-middleware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggondim/etag-azure-functions-middleware/issues"
+  },
+  "homepage": "https://github.com/ggondim/etag-azure-functions-middleware#readme",
+  "dependencies": {
+    "redis-http-etag-control": "1.1.0",
+    "redis-simple-connect": "1.1.5"
+  }
+}
